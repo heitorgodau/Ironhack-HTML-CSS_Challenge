@@ -1,0 +1,248 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p,
+li{
+  line-height: 1.5;
+  margin-bottom: 25px;
+}
+
+h1{
+  font-size: 2.5em;
+  margin-bottom: 25px;
+}
+
+h2{
+  font-size: 2em;
+  margin-bottom: 25px;
+  font-weight: 300;
+}
+
+a:hover,
+button:hover{
+  filter: brightness(90%);
+}
+
+.rounded-btn{
+  display: inline-block;
+  color: white;
+  background-color: #000;
+  border-radius: 30px;
+  padding: 15px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  width: 130px;
+  text-align: center;
+}
+
+.orange-btn{
+  background-color: rgb(240, 146, 51);
+}
+
+.red-btn{
+  background-color: rgb(203, 56, 55);
+}
+
+.gray-btn{
+  background-color: rgb(49, 68, 88);
+}
+
+.center{
+  width: 1220px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.vh-center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-bar {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-bar a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+.top-links{
+  margin-right: 20px;
+}
+
+.top-links li{
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0
+}
+
+.header{
+  background-color: rgb(32, 101, 136);
+  background: url(images/city-scape.svg) top right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  height: 460px;
+}
+
+.header-top{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  margin: 0 25px 30px;
+  padding-top: 30px;
+}
+
+.npm-logo{
+  width: 10%;
+  margin-right: 25px;
+}
+
+.package-search-form{
+  width: 100%;
+  display: inherit;
+  height: 35px;
+}
+
+.package-search-field{
+  width: 100%;
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 5px;
+  color: #fff
+}
+
+.package-search-btn{
+  background-color: rgb(31, 82, 111);
+  border: 1px solid rgba(255,255,255,0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4%;
+  cursor: pointer;
+}
+
+.package-search-btn img{
+  filter: invert(70%);
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    width: 25%;
+    align-items: center;
+}
+
+.login li{
+  display: inline-block;
+}
+
+.login a{
+  color: white;
+  text-decoration: none;
+}
+
+.login .login-img{
+  width: 50%
+}
+
+.header-content{
+  width: 40%;
+  margin: 0 200px;
+}
+
+#colaboration{
+  background-color: rgb(39, 53, 71);
+  color: #fff;
+  height: 460px;
+}
+
+#colaboration .high-five{
+  width: 45%;
+  margin-right: 5%
+}
+
+#colaboration .colaboration-content{
+  width: 45%;
+  margin-left: 5%;
+}
+
+#colaboration .colaboration-list li{
+  margin-left: 15px;
+}
+
+.learn-more-link a{
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+}
+
+#install-npm{
+  background-image: url(images/forklift.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 460px;
+  position: relative;
+  color: #fff;
+}
+
+#install-npm .install-npm-content{
+  position: absolute;
+  top: 7vh;
+  left: 13vw;
+  width: 25%;
+}
+
+#npm-registry{
+  margin-top: 50px;
+  margin-bottom: 100px; 
+}
+
+#npm-registry .npm-registry-heading{
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+#npm-registry .npm-registry-heading h2{
+  color: rgb(83, 88, 98);
+}
+
+#npm-registry .npm-registry-heading p{
+  color: rgb(135, 145, 156);
+}
+
+#npm-registry .npm-registry-boxes{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+#npm-registry .npm-registry-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  text-align: center;
+}
+
+#npm-registry .npm-registry-box h3{
+  margin: 20px 0 15px;
+}
+
+#npm-registry .npm-registry-box a{
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
